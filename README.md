@@ -1,4 +1,4 @@
-<h1>Google Landing Page</h1>
+<h1>Google Meet Landing Page</h1>
 
 <img width="1878" height="913" alt="image" src="https://github.com/user-attachments/assets/1a513c35-38ea-486b-b6ad-31b32a708e95" />
 
