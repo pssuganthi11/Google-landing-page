@@ -4,7 +4,7 @@
 
 <h2> How to start</h2>
 <ul>
-  <li>clone the Git Using http</ol>
+  <li>clone the Git Using code : https://github.com/pssuganthi11/Google-landing-page.git</ol>
   <li>run npm install on terminal</li>
   <li> run commend "npm run dev"</li>
 </ul>
