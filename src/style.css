@@ -3,3 +3,10 @@
 body{
     font-family: "Google Sans Flex", sans-serif;
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}

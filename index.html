@@ -114,13 +114,67 @@
         </div>
         <div class="h-px w-99 bg-gray-600 mt-10 mx-auto"></div>
 
-        <div class="flex mt-30 mx-auto justify-center items-center">
-          <button class="text-3xl text-gray-500 px-5">
-            &lt;
-          </button>
-          <img src="./public//car.svg">
-          <button class="text-3xl text-gray-500 px-5">&gt;
-          </button>
+       
+
+        <div class="w-full flex justify-center items-center mt-20 relative">
+
+          <div class="flex w-[70%] overflow-x-auto snap-x snap-mandatory scroll-smooth no-scrollbar">
+
+            <div id="slide1" class="min-w-full flex flex-col items-center snap-center relative">
+              <img src="./public/car.svg" class="w-64 h-64">
+
+              <h2 class="text-2xl font-semibold mt-6">Get a link that you can share</h2>
+              <p class="text-gray-600 text-center max-w-md mt-2">
+                Click <strong>New Meeting</strong> to get a link you can send to people you want to meet with
+              </p>
+
+              <a href="#slide3" class="absolute left-0 top-1/2 -translate-y-1/2 text-4xl text-gray-500">
+                &lt;
+              </a>
+
+              <a href="#slide2" class="absolute right-0 top-1/2 -translate-y-1/2 text-4xl text-gray-500">
+                &gt;
+              </a>
+            </div>
+
+            <div id="slide2" class="min-w-full flex flex-col items-center snap-center relative">
+              <img src="./public/car2.svg" class="w-64 h-64">
+
+              <h2 class="text-2xl font-semibold mt-6">Plan ahead</h2>
+
+              <p class="text-gray-600 text-center max-w-md mt-2">
+                Click <strong>New Meeting</strong>
+
+                to schedule meetings in Google Calendar and send invites to participants </p>
+
+              <a href="#slide1" class="absolute left-0 top-1/2 -translate-y-1/2 text-4xl text-gray-500">
+                &lt;
+              </a>
+
+              <a href="#slide3" class="absolute right-0 top-1/2 -translate-y-1/2 text-4xl text-gray-500">
+                &gt;
+              </a>
+            </div>
+
+            <div id="slide3" class="min-w-full flex flex-col items-center snap-center relative">
+              <img src="./public/car3.svg" class="w-64 h-64">
+
+              <h2 class="text-2xl font-semibold mt-6">Your meeting is safe</h2>
+              <p class="text-gray-600 text-center max-w-md mt-2">
+                <strong>No one can join</strong>
+                a meeting unless invited or admitted by the host
+              </p>
+
+              <a href="#slide2" class="absolute left-0 top-1/2 -translate-y-1/2 text-4xl text-gray-500">
+                &lt;
+              </a>
+
+              <a href="#slide1" class="absolute right-0 top-1/2 -translate-y-1/2 text-4xl text-gray-500">
+                &gt;
+              </a>
+            </div>
+
+          </div>
         </div>
 
       </div>
